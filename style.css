@@ -41,3 +41,35 @@ p {
 a {
     color: black;
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    background-color: gainsboro;
+}
+
+footer p {
+    margin: 0;
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.prev-page, .next-page {
+    background-color: #333333;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.prev-page:hover, .next-page:hover {
+    background-color: dimgray;
+}
