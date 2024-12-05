@@ -34,12 +34,12 @@ h2 {
     color: #333333;
 }
 
-p {
-    line-height: 1.6;
+ul, ol, p {
+    line-height: 1.5
 }
 
 a {
-    color: black;
+    color: #333333;
 }
 
 ol > li {
@@ -57,7 +57,7 @@ footer {
 
 footer p {
     margin: 0;
-    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
     font-weight: bold;
 }
 
@@ -76,4 +76,9 @@ footer p {
 
 .prev-page:hover, .next-page:hover {
     background-color: dimgray;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
